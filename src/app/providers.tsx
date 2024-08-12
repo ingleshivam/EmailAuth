@@ -9,7 +9,8 @@ interface ProvidersProps {
     children: ReactNode,
 }
 
-// Our Providers component encapsulates the SessionProvider to manage user sessions
+// Our Providers component encapsulates 
+//the SessionProvider to manage user sessions
 export default function Providers({ children }: ProvidersProps) {
     return (
         <SessionProvider>
